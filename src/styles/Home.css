@@ -86,7 +86,6 @@
 .github-logo:hover{
     animation-duration: 1s;
     animation-name: github-spin-in;
-    animation-play-state: running;
     fill: #00B4D8;
     transition: 0.7s ease-in-out;
 }

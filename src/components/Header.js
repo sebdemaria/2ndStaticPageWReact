@@ -9,8 +9,10 @@ export const Header = () => {
         <header className="header">
 
             <div className="header-content">
-                <img className="logo" src={logo} alt="logo"></img>
-                
+                <a href="/">
+                    <img className="logo" src={logo} alt="logo"></img>
+                </a>
+
                 <div className="register">
                     <button>
                         Registrarme

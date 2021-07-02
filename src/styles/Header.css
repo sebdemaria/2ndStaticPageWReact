@@ -6,6 +6,16 @@
     }
   }
 
+@keyframes underline{
+from{
+    text-decoration: none;
+}
+to{
+    text-decoration: underline;
+    
+}
+}
+
 .header{
     background-color: transparent;
     width: 100%;
@@ -35,6 +45,24 @@
     background-color: transparent;
     cursor: pointer;
     font-size: 18px;
+    position: relative;
+}
+
+.register button:before{
+    content: "";
+    background-color: gray;
+    height: 1px;
+    bottom: 0;
+    position: absolute;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.15s ease-in-out;
+    width: 100%;
+}
+
+.register button:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 .separator{
