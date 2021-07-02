@@ -1,0 +1,45 @@
+@supports(position:sticky){
+    .header{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+  }
+
+.header{
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin: 0 30px -10px 35px;
+    width: 125px;
+}
+
+.register{
+    padding-top: 15px;
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    width: 10%;
+}
+
+.register button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.separator{
+    border: none;
+    background-color: #90E0EF;
+    height: 1px;
+    width: 80%;
+}
