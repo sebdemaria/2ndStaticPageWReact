@@ -40,6 +40,7 @@
     animation-duration: 2s;
     animation-name: fade-in;
     flex-wrap: wrap;
+    margin-bottom: 50px;
     text-align: center;
     width: 60%;
 }
@@ -63,7 +64,7 @@
     animation-duration: 1s;
     animation-name: fade-in;
     height: auto;
-    margin: -35px 30% 0 30%;
+    margin: -35px 30% 0 30%!important;
     width: 22%;
 }
 

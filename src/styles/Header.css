@@ -6,20 +6,9 @@
     }
   }
 
-@keyframes underline{
-from{
-    text-decoration: none;
-}
-to{
-    text-decoration: underline;
-    
-}
-}
-
 .header{
     background-color: transparent;
     width: 100%;
-    z-index: 1000;
 }
 
 .header-content{
@@ -50,7 +39,7 @@ to{
 
 .register button:before{
     content: "";
-    background-color: gray;
+    background-color: #48CAE4;
     height: 1px;
     bottom: 0;
     position: absolute;
@@ -65,9 +54,53 @@ to{
     transform: scaleX(1);
 }
 
-.separator{
+.division{
     border: none;
-    background-color: #90E0EF;
+    background-color: #90E0EF!important;
+    margin: 10px auto 50px auto!important;
     height: 1px;
+    text-align: center;
+    opacity: 1!important;
     width: 80%;
+}
+
+.ReactModal__Overlay {
+    height: 100%;
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateY(0px);
+}
+  
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.ReactModal__Content{
+    background: #CAF0F8!important;
+    border: 1px solid #90E0EF!important;
+    border-radius: 5px; 
+    height: max-content;
+    left: 30%!important;
+    opacity: 0;
+    padding-bottom: 40px!important;
+    padding-top: 30px!important;
+    text-align: center;
+    transform: translateY(-100px);
+    transition: all 350ms ease-in-out;    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    top: 25%!important;
+    width: 40%;
+}
+
+.ReactModal__Content--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+}
+  
+.ReactModal__Content--before-close {
+    opacity: 0;
+    transform: translateY(-100px);
 }
