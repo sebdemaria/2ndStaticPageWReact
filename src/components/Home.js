@@ -15,7 +15,7 @@ export const Home = () => {
                 
                 <p>Probá el formulario de registro!</p>
                 
-                <img className="sign" src={sign} alt="sign"/>
+                <img className="sign" src="dev-sign.png" alt="sign"/>
                 
                 <a href="https://github.com/sebdemaria">
                 
