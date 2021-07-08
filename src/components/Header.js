@@ -24,7 +24,7 @@ export const Header = () => {
 
             <div className="header-content">
                 <a href="/">
-                    <img className="logo" src="logo" alt="logo"></img>
+                    <img className="logo" src="logo.png" alt="logo"></img>
                 </a>
 
                 <div className="register">
